@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.continer {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 1px rgba(0, 0, 0, 0.514) solid;
+    scroll-behavior: smooth;
+}
+
+nav .navleft {
+    color: #1e9fab;
+    margin-left: 40px;
+}
+
+nav .navleft h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+nav .navleft h1 span i {
+    font-size: 35px;
+    display: none;
+}
+
+nav .navright ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 120px;
+}
+
+nav .navright ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+nav .navright ul li a:hover {
+    color: #6e57e0;
+}
+
+nav .lol {
+    display: none;
+}
+
+/* _______________Home___________  */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .homeright img {
+    width: 300px;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-radius: 50%;
+}
+
+.homeleft>* {
+    margin-bottom: 20px;
+}
+
+.homeleft h2 {
+    background-color: #c0a631;
+    color: aliceblue;
+    width: max-content;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.homeleft h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #095157;
+    margin-left: 50px;
+}
+
+.homeleft p {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 80%;
+    font-weight: bold;
+}
+
+.homeleft button {
+    margin-left: 20%;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #1e9fab;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.homeleft button:hover {
+    background-color: #00c9ff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.icons {
+    margin-left: 25%;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+/* _______________About___________  */
+h6 {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #444444;
+}
+
+.abouts {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about {
+    text-align: center;
+    width: 30%;
+    box-shadow: 1px 1px 1px 1px cadetblue;
+    border-radius: 20px;
+    padding: 11px;
+
+}
+
+.aboutt {
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    padding: 11px;
+    margin-top: 10px;
+}
+
+.az {
+    margin-bottom: 20px;
+}
+
+.aaa {
+    display: inline;
+    background-color: #6e57e0;
+    padding: 5px;
+    color: white;
+    border-radius: 10%;
+    margin-left: 10px;
+
+
+}
+
+.about>* {
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+/* _______________Project___________  */
+.projects {
+    display: flex;
+    gap: 40px;
+}
+
+.project a img {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.project {
+    width: 50%;
+    box-shadow: 2px 2px 2px 2px black;
+    transition: 1s;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+.project a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    color: #000000;
+}
+
+/* _______________Contact___________  */
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.contact>* {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    background-color: #00c9ff;
+    padding: 10px;
+    width: 40%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.contact p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact h5 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+}
+
+.form input {
+    width: 30%;
+    padding: 15px;
+    border-radius: 5%;
+    outline: none;
+    opacity: 0.5;
+    margin-bottom: 10px;
+
+}
+
+.form textarea {
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+}
+
+.form button {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #1e9fab;
+    font-size: 20px;
+    transition: 1s;
+}
+
+
+.form button:hover {
+    background-color: #00c9ff;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+/* _______________Fotter___________  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #F8F8F8;
+    padding-block: 40px 60px;
+}
+
+.top-footer p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.middle-footer .footer-menu {
+    display: flex;
+}
+
+.footer_menu_list {
+    list-style: none;
+}
+
+.footer_menu_list a {
+    text-decoration: none;
+    color: var(--text-color-second);
+    font-weight: 500;
+    margin-inline: 20px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom-footer {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width : 800px) {
+    nav .navleft {
+        margin-left: 5px;
+        width: 30%;
+
+    }
+
+    nav .navleft h1 {
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 30px;
+    }
+
+    nav .navright ul li a {
+        display: none;
+    }
+
+    nav .lol {
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    header .homeright img {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .homeleft p {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .icons {
+        margin-left: 32%;
+    }
+
+    .abouts {
+        flex-direction: column;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .aboutt {
+        width: 90%;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 90%;
+    }
+
+    .contact p {
+        width: 10%;
+        font-size: 13px;
+    }
+}
